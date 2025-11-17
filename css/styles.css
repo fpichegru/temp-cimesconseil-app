@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    height: auto!important;
+}
+
+
+
+@keyframes fade1 {
+  0%, 12%, 100% { opacity: 0; }
+  2%, 10% { opacity: 1; }
+}
+
+@keyframes fade2 {
+  0%, 12% { opacity: 0; }
+  14%, 22% { opacity: 1; }
+  24%, 100% { opacity: 0; }
+}
+
+@keyframes fade3 {
+  0%, 24% { opacity: 0; }
+  26%, 34% { opacity: 1; }
+  36%, 100% { opacity: 0; }
+}
+
+@keyframes fade4 {
+  0%, 36% { opacity: 0; }
+  38%, 46% { opacity: 1; }
+  48%, 100% { opacity: 0; }
+}
+
+@keyframes fade5 {
+  0%, 48% { opacity: 0; }
+  50%, 58% { opacity: 1; }
+  60%, 100% { opacity: 0; }
+}
+
+@keyframes fade6 {
+  0%, 60% { opacity: 0; }
+  62%, 70% { opacity: 1; }
+  72%, 100% { opacity: 0; }
+}
+
+@keyframes fade7 {
+  0%, 72% { opacity: 0; }
+  74%, 98% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Classes Tailwind-like */
+.animate-fade1 { animation: fade1 21s infinite ease-in-out; }
+.animate-fade2 { animation: fade2 21s infinite ease-in-out; }
+.animate-fade3 { animation: fade3 21s infinite ease-in-out; }
+.animate-fade4 { animation: fade4 21s infinite ease-in-out; }
+.animate-fade5 { animation: fade5 21s infinite ease-in-out; }
+.animate-fade6 { animation: fade6 21s infinite ease-in-out; }
+.animate-fade7 { animation: fade7 21s infinite ease-in-out; }
+
+
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-out {
+  animation: zoom-out 8s ease-out forwards;
+}
