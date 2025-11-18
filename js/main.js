@@ -8,11 +8,11 @@ const menuLinks = document.querySelectorAll("#main-navlist a");
 function toggleNav(){
     if(mainNavList.classList.contains("hidden")){
         mainNavList.classList.remove("hidden")
-        toggleMenuImg.setAttribute("src","./images/hero/cross.svg")
+        toggleMenuImg.setAttribute("src","../images/hero/cross.svg")
         toggleMenuBtn.setAttribute("aria-expanded", "true")
     } else {
          mainNavList.classList.add("hidden");
-         toggleMenuImg.setAttribute("src", "./images/hero/hamburger-menu.svg");
+         toggleMenuImg.setAttribute("src", "../images/hero/hamburger-menu.svg");
          toggleMenuBtn.setAttribute("aria-expanded", "false");
     }
 }

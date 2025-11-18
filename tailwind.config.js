@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./html/*.html"],
   theme: {
     extend: {
       fontFamily: {
@@ -22,6 +22,21 @@ module.exports = {
       },
     },
   },
+  // ←←← AJOUTE ÇA (c’est la ligne qui manquait)
+  safelist: [
+    "object-bottom",
+    "object-top",
+    "object-center",
+    "object-[center_70%]",
+    "object-[center_75%]",
+    "object-[center_80%]",
+    "object-[center_85%]",
+    "object-[center_90%]",
+    "object-[50%_75%]",
+    "object-[50%_80%]",
+    "object-[50%_90%]",
+  ],
+  // ←←← FIN DE L’AJOUT
   plugins: [],
 };
 

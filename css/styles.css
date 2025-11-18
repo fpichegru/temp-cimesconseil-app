@@ -72,3 +72,8 @@ img {
 .animate-zoom-out {
   animation: zoom-out 8s ease-out forwards;
 }
+
+
+.object-bottom {
+  object-position: bottom;
+}
