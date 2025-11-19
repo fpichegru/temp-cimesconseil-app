@@ -35,6 +35,10 @@ module.exports = {
     "object-[50%_75%]",
     "object-[50%_80%]",
     "object-[50%_90%]",
+    "leading-relaxed",
+    "leading-loose",
+    "lg:leading-loose",
+    "xl:leading-loose",
   ],
   // ←←← FIN DE L’AJOUT
   plugins: [],
