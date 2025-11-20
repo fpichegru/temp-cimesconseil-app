@@ -1640,6 +1640,11 @@ video {
   padding-right: 5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -1853,6 +1858,11 @@ video {
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#1B365C\] {
+  --tw-text-opacity: 1;
+  color: rgb(27 54 92 / var(--tw-text-opacity, 1));
 }
 
 .underline {
