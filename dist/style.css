@@ -683,6 +683,10 @@ video {
   z-index: 50;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1116,6 +1120,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-64 {
+  width: 16rem;
 }
 
 .min-w-\[240px\] {
@@ -1697,6 +1705,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pb-14 {
@@ -2312,6 +2325,10 @@ img {
     display: block;
   }
 
+  .sm\:w-44 {
+    width: 11rem;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2338,6 +2355,11 @@ img {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -2394,6 +2416,10 @@ img {
     width: auto;
   }
 
+  .md\:w-52 {
+    width: 13rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2438,6 +2464,11 @@ img {
     padding-right: 0.25rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pt-0 {
     padding-top: 0px;
   }
@@ -2459,6 +2490,16 @@ img {
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
