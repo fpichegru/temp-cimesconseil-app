@@ -77,3 +77,8 @@ img {
 .object-bottom {
   object-position: bottom;
 }
+
+
+.list-blue-dot {
+  @apply relative pl-6 before:absolute before:left-0 before:top-1 before:text-main-blue before:content-['•'];
+}
