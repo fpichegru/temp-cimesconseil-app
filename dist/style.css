@@ -1303,6 +1303,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1417,6 +1421,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .text-center {
