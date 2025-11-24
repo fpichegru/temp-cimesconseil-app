@@ -2083,6 +2083,10 @@ img {
     margin-top: 2rem;
   }
 
+  .md\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .md\:block {
     display: block;
   }
