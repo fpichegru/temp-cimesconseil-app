@@ -1,0 +1,7 @@
+# Désactive tout cache serveur pour ce dossier
+<IfModule mod_headers.c>
+Header unset Cache-Control
+Header unset Expires
+Header unset Last-Modified
+Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+</IfModule>
